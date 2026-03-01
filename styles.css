@@ -72,3 +72,68 @@ body {
   padding: 12px 0;
   color: #4b5563;
 }
+
+.db-subtext {
+  font-size: 13px;
+  color: #4b5563;
+  margin: 4px 0 10px;
+}
+
+.req-table-wrap {
+  overflow-x: auto;
+  margin-top: 14px;
+}
+
+.req-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.req-table th {
+  background: #f0f3f7;
+  color: #374151;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #d8dee6;
+  white-space: nowrap;
+}
+
+.req-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+
+.req-table tr:last-child td { border-bottom: none; }
+
+.req-table tr:hover td {
+  background: #f9fafb;
+}
+
+.req-count {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #4f46e5;
+  border: 1px solid #4f46e5;
+  border-radius: 8px;
+  padding: 9px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary:hover { background: #eef2ff; }
